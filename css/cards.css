@@ -1,0 +1,12 @@
+.card {
+  background-color: white;
+  margin: 16px;
+  padding: 16px;
+}
+
+@media (max-width: 768px){
+  .card{
+    display:flex;
+    justify-content: left;
+  }
+}

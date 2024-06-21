@@ -1,0 +1,16 @@
+@import url('blocks.css');
+@import url('buttons.css');
+@import url('cards.css');
+@import url('globals.css');
+@import url('space.css');
+@import url('texts.css');
+@import url('style.css');
+@import url('footer.css');
+
+/* globals */
+:root {
+  --color-primary: #96BB7C;
+  --color-secondary: #737373;
+  --max-width: 1200px;
+}
+

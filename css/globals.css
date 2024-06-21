@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+body { margin: 0px; padding: 0px; }
+header, section, main, footer {
+  padding: 24px 24px;
+}

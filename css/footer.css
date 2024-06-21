@@ -1,0 +1,93 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+footer{
+    width: 1440px;
+    height: 74px;
+    background-color: #FAFAFA;
+    padding: 25px 0px 25px 0px;
+}
+
+.containerf{
+    display: flex;
+    width: 1050px;
+    height: 100%;
+    margin: 0 195px 0 195px ;
+}
+
+.rowf {
+    display: flex;
+}
+
+.col1f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 522px;
+}
+
+.texf {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.col2f {
+    display: flex;
+    width: 522px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialf{
+    display: inline-flex;
+    color: #96BB7C;
+    gap: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.fbf{
+    width: 24px;
+    height: 24px;
+}
+
+.igf{
+    width: 24px;
+    height: 24px;
+}
+
+.trf{
+    width: 24px;
+    height: 20px;
+}
+
+@media (max-width: 768px){
+
+footer{align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width:fit-content;}
+
+.containerf{align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: var(--max-width)
+}
+.col1f{
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: var(--max-width)
+}
+.col2f{
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: var(--max-width)
+}
+}

@@ -1,0 +1,41 @@
+* { font-family: 'Montserrat', sans-serif; }
+
+/* base color */
+h1, h2, h3, h4, h5, h6 { color: #252B42; }
+
+/* secondary color */
+.primary { color: var(--color-primary); }
+.secondary { color: var(--color-secondary); }
+
+/* trasformaciones */
+.upper { text-transform: uppercase; }
+
+.text-center {
+  text-align: center;
+}
+
+/* size */
+h1 {
+  font-size: 58px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media(max-width: 768px){
+  h1{ font-size: 20px;}
+  h2{ font-size: 15px;}
+}
